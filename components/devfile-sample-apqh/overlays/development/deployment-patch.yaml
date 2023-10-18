@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-apqh
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0088-tenant/ci1t-830-0088-app/devfile-sample-apqh@sha256:df3d9bda779a6b83a35be735e80a0793cd3e62df8fab63738bb92bbef77e4f8e
+        name: my-nodejs
+        resources: {}
+status: {}
